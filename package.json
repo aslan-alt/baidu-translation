@@ -1,0 +1,21 @@
+{
+  "name": "translation",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev src/cli.ts 菜单栏"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "dependencies": {
+    "commander": "^7.2.0",
+    "md5": "^2.3.0",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.0",
+    "@types/node": "^14.14.37"
+  }
+}
