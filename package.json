@@ -1,10 +1,14 @@
 {
-  "name": "translation",
-  "version": "0.0.1",
-  "main": "index.js",
+  "name": "aslan-translation",
+  "version": "0.0.2",
+  "main": "dist/main.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node-dev src/cli.ts 菜单栏"
+    "start": "ts-node-dev src/cli.ts 菜单栏",
+    "build": "tsc -p . "
+  },
+  "bin": {
+    "fy": "dist/cli.js"
   },
   "files": [
     "dist/**/*.js"
